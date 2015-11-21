@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartApi", "SmartApi\SmartApi.csproj", "{17E6FC4F-6194-4945-AB0B-40E0906A328C}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartApi.Modules", "SmartApi.Modules\SmartApi.Modules.csproj", "{A1D80EF2-2FF6-491E-8A22-2766EF92AE51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartApi.Shared", "SmartApi.Shared\SmartApi.Shared.csproj", "{B661F5AE-997A-4B86-8FC8-DE51D45658FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartConsole", "..\SmartConsole\SmartConsole\SmartConsole.csproj", "{4FAF7882-5C70-4487-B34C-85EF3028E76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B661F5AE-997A-4B86-8FC8-DE51D45658FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B661F5AE-997A-4B86-8FC8-DE51D45658FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B661F5AE-997A-4B86-8FC8-DE51D45658FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAF7882-5C70-4487-B34C-85EF3028E76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAF7882-5C70-4487-B34C-85EF3028E76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAF7882-5C70-4487-B34C-85EF3028E76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAF7882-5C70-4487-B34C-85EF3028E76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{7568F720-4DF4-4C70-96F2-C86A1D65631F} = {87A6AF01-AE0D-4B62-B91A-076EBB24906A}
 		{A1D80EF2-2FF6-491E-8A22-2766EF92AE51} = {7568F720-4DF4-4C70-96F2-C86A1D65631F}
 		{B661F5AE-997A-4B86-8FC8-DE51D45658FD} = {87A6AF01-AE0D-4B62-B91A-076EBB24906A}
+		{4FAF7882-5C70-4487-B34C-85EF3028E76D} = {5B275DF8-7BC6-4BE8-BFA0-FE434C3B6909}
 	EndGlobalSection
 EndGlobal
